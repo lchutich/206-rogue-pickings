@@ -55,12 +55,11 @@ header {
 }
 
 header h1 {
-	margin: 0px;
+	margin: 0;
 	padding: 40px 0 15px 0;
 	width: 100%;
 	border-bottom: 3px solid #77a466;
-	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	flex: auto;
 }
@@ -97,7 +96,6 @@ header nav ul li a{
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-flow: column wrap;
-	flex: auto;
 }
 
 .main-image {
@@ -132,7 +130,6 @@ header nav ul li a{
 	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
-	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-flow: row wrap;
@@ -140,7 +137,7 @@ header nav ul li a{
 }
 
 .section-one h3 {
-	padding: 5px 0;
+	
 }
 
 .menu {
@@ -207,8 +204,7 @@ header {
 header h1 {
 			border-bottom: 3px solid #77a466;
 			width: 100%;
-			display: flex;
-			justify-content: center;
+			justify-content: space-around;
 			align-items: center;
 }
 
@@ -242,7 +238,6 @@ header nav ul li {
 					width: 30%;
 					height: auto;
 					border-top: 1px solid #eee;
-					display: flex;
 					justify-content: flex-start;
 					align-items: flex-start;
 					flex-flow: row wrap;
@@ -323,16 +318,10 @@ header nav ul li {
 .section-three {
 		width: 30%;
 		padding: 10px;
-		display: flex;
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-flow: row wrap;
 		flex: auto;
-}
-
-.section-three p {
-
-		padding-top: 50px;
 }
 
 }
