@@ -59,6 +59,7 @@ header h1 {
 	padding: 40px 0 15px 0;
 	width: 100%;
 	border-bottom: 3px solid #77a466;
+	text-align: center;
 	justify-content: space-evenly;
 	align-items: center;
 	flex: auto;
@@ -79,7 +80,8 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 10px 0 15px 0;
-	display: flex;
+	list-style: none;
+
 }
 header nav ul li a{
 	text-decoration: none;
@@ -89,7 +91,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0 auto;
+	
 	height: auto;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	display: flex;
@@ -136,10 +138,6 @@ header nav ul li a{
 	flex: auto;
 }
 
-.section-one h3 {
-	
-}
-
 .menu {
 	list-style: none;
 	padding: 0;
@@ -154,15 +152,14 @@ header nav ul li a{
 	font-size: 1em;
 	line-height: 1.3125em;
 	width: 100%;
-	padding: 0 10px 0 10px; 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+	padding: 0 10px 0 0;
+	}
 
 .address {
 	font-size: 1em;
 	line-height: 1.5em;
+	text-align: left;
+	padding: 0;
 }
 
 /*The widths are in a percentage!*/
@@ -280,6 +277,7 @@ header{
 
 header h1 {
 	padding: 15px 0 30px 0;
+	text-align: left;
 	justify-content: flex-start;
 	align-items: flex-start;
 	
