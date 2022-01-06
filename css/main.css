@@ -48,6 +48,7 @@ header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
