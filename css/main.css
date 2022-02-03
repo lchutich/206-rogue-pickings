@@ -45,7 +45,7 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
+	
 	margin: 0 auto;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	text-align: center;
@@ -60,10 +60,6 @@ header h1 {
 	padding: 40px 0 15px 0;
 	width: 100%;
 	border-bottom: 3px solid #77a466;
-	text-align: center;
-	justify-content: space-evenly;
-	align-items: center;
-	flex: auto;
 }
 header h1 span {
 	color: #77a466;
@@ -106,6 +102,7 @@ header nav ul li a{
 }
 .main-image img {
 	width: 100%;
+	border-top: 3px solid #77a466;
 	border-bottom: 3px solid #77a466;
 	display: flex;
 	justify-content: center;
@@ -190,26 +187,11 @@ footer span {
 	
 header {
 			width: 100%;
-			border-bottom: 3px solid #77a466;
-			margin: 0 auto;
-			font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-flow:column wrap;
-			}
+			flex-flow: column wrap;
+		}
 
-header h1 {
-			border-bottom: 3px solid #77a466;
-			width: 100%;
-			justify-content: space-around;
-			align-items: center;
-}
 
 header nav ul li {
-				text-transform: uppercase;
-				font-weight: 700;
-				font-size: 0.875em;
 				padding: 15px 0 10px 0;
 				display: flex;
 				justify-content: center;
@@ -221,11 +203,6 @@ header nav ul li {
 .top-section,
 .bottom-section {
 				margin: 0 auto;
-				height: auto;
-				font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-				display: flex;
-				justify-content: flex-start;
-				align-items: flex-start;
 				flex-flow: row wrap;
 				flex: auto;
 				}
@@ -234,12 +211,6 @@ header nav ul li {
 .section-two,
 .section-three {
 					width: 30%;
-					height: auto;
-					border-top: 1px solid #eee;
-					justify-content: flex-start;
-					align-items: flex-start;
-					flex-flow: row wrap;
-					flex: auto;
 }
 .section-two, 
 .section-three{
@@ -254,11 +225,6 @@ header nav ul li {
 .section-three h3 {
 	padding: 5px 0;
 }
-
-footer {
-	border-top: 1px solid #eee;
-}
-
 }
 /***** Desktop styles here *****/
 
@@ -269,47 +235,32 @@ footer {
 header{
 		border-bottom: none;
 		width: 100%;
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
-		flex-flow:row wrap;
-		flex: auto;
+		flex-flow: row nowrap;
 }
 
 header h1 {
 	padding: 15px 0 30px 0;
+	border-bottom: none;
+	width: 40%;
 	text-align: left;
-	justify-content: flex-start;
-	align-items: flex-start;
-	
 }
 
 header nav {
-	padding: 46px 0;
-	width: 40%
+	padding: 0;
+	width: 60%;
 }
 header nav ul {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	flex: auto;
+	padding: 0;
+	margin: none;
+	text-align: right;
 }
+
 
 header nav ul li { 
-		justify-content: flex-end;
-		align-items: flex-end;
-		flex-flow:row nowrap;
-		flex: auto;
-}
-
-.main-image img {
-	width: 100%;
-	border-top: 3px solid #77a466;
-	border-bottom: 3px solid #77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: space-between;
+		display: inline;
+		padding: 0 5px 0 5px;
 }
 
 .section-one,
@@ -317,10 +268,6 @@ header nav ul li {
 .section-three {
 		width: 30%;
 		padding: 10px;
-		justify-content: flex-start;
-		align-items: flex-start;
-		flex-flow: row wrap;
-		flex: auto;
-}
+		}
 
 }
